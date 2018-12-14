@@ -3,7 +3,7 @@ RequiredSheetVersion(13);
 WeaponsList["duergarfirespear"] = {
     regExpSearch : /^le(?=.*attack).*$/i,name : "Duergar Fire Spear",
     source : ["HB", 0]
-    list : "melee",
+    list = "melee",
     ability : 1,
     type : "Simple",
     damage : [1, 12, "piercing", "+", 1, 6, "fire"],
