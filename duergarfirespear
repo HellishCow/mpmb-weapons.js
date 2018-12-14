@@ -1,3 +1,4 @@
+var iFileName = "Homebrew Syntax - WeaponsList.js";
 RequiredSheetVersion(13); 
 WeaponsList["duergarfirespear"] = {
     regExpSearch : /^le(?=.*attack).*$/i,name : "Duergar Fire Spear",
