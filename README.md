@@ -1,1 +1,1 @@
-# mpmb-duergar-fire-spear
+# mpmb-weapons
