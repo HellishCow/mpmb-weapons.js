@@ -1,16 +1,16 @@
 var iFileName = "Homebrew Syntax - WeaponsList.js";
 RequiredSheetVersion(13); 
 WeaponsList["duergarfirespear"] = {
-    regExpSearch : /^le(?=.*attack).*$/i,name : "Duergar Fire Spear",
-    source : ["HB", 0]
+    regExpSearch = /^le(?=.*attack).*$/i,name : "Duergar Fire Spear",
+    source = ["HB", 0]
     list = "melee",
-    ability : 1,
-    type : "Simple",
-    damage : [1, 12, "piercing", "+", 1, 6, "fire"],
-    range : "Melee, 20/60 ft",
-    description : "Thrown, versatile (1d8)",
-    abilitytodamage : true,
-    weight : 3,
-    monkweapon : true,
-    ammo : "spear",
+    ability = 1,
+    type = "Simple",
+    damage = [1, 12, "piercing", "+", 1, 6, "fire"],
+    range = "Melee, 20/60 ft",
+    description = "Thrown, versatile (1d8)",
+    abilitytodamage = true,
+    weight = 3,
+    monkweapon = true,
+    ammo = "spear",
 };
